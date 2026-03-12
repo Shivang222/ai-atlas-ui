@@ -1,6 +1,6 @@
 import type { PagedResponse, ToolDto, SearchResult, ToolStats } from '../types';
 
-const API_BASE_URL = 'http://localhost:8080/api/v1';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8080/api/v1';
 
 class ApiClient {
     private async fetch<T>(endpoint: string, options?: RequestInit): Promise<T> {
