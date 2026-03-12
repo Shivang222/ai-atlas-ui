@@ -51,7 +51,7 @@ const mockPagedResponse: PagedResponse<ToolDto> = {
 
 
 function mockFetch(body: unknown, status = 200) {
-    return vi.spyOn(global, 'fetch').mockResolvedValueOnce({
+    return vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce({
         ok: status >= 200 && status < 300,
         status,
         statusText: status === 200 ? 'OK' : 'Internal Server Error',
