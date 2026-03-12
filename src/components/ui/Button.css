@@ -1,0 +1,99 @@
+.ui-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    border-radius: var(--border-radius-md);
+    transition: all var(--transition-fast);
+    cursor: pointer;
+    outline: none;
+    gap: var(--spacing-sm);
+}
+
+.ui-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.ui-button.full-width {
+    width: 100%;
+}
+
+/* Sizes */
+.ui-button.size-sm {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+.ui-button.size-md {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.ui-button.size-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+}
+
+/* Variants */
+.ui-button.variant-primary {
+    background: var(--gradient-primary);
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
+}
+
+.ui-button.variant-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5);
+}
+
+.ui-button.variant-secondary {
+    background: var(--color-surface);
+    color: var(--color-text-main);
+    border: 1px solid var(--color-border);
+    backdrop-filter: var(--glass-filter);
+}
+
+.ui-button.variant-secondary:hover:not(:disabled) {
+    background: var(--color-surface-hover);
+    border-color: var(--color-border-hover);
+}
+
+.ui-button.variant-outline {
+    background: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+.ui-button.variant-outline:hover:not(:disabled) {
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.ui-button.variant-ghost {
+    background: transparent;
+    color: var(--color-text-muted);
+    border: 1px solid transparent;
+}
+
+.ui-button.variant-ghost:hover:not(:disabled) {
+    color: var(--color-text-main);
+    background: var(--color-surface);
+}
+
+/* Loaders */
+.loader {
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,8 @@
+@import './styles/tokens.css';
+@import './styles/global.css';
+
+/* Remove default Vite styles that conflict with our global.css */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

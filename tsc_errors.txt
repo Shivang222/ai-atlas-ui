@@ -1,0 +1,12 @@
+src/components/domain/ToolCard.tsx(4,10): error TS1484: 'ToolDto' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/Compare.tsx(5,10): error TS1484: 'ToolDto' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/Home.tsx(5,10): error TS1484: 'ToolDto' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/Search.tsx(5,10): error TS1484: 'ToolDto' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/Search.tsx(11,11): error TS6133: 'navigate' is declared but its value is never read.
+src/pages/ToolDetail.tsx(5,10): error TS1484: 'ToolDto' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/ToolDetail.tsx(103,73): error TS2322: Type '{ size: number; className: string; title: string; }' is not assignable to type 'IntrinsicAttributes & Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>'.
+  Property 'title' does not exist on type 'IntrinsicAttributes & Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>'.
+src/pages/Trending.tsx(4,10): error TS1484: 'ToolDto' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/Trending.tsx(5,1): error TS6133: 'ToolCard' is declared but its value is never read.
+src/services/apiClient.ts(1,10): error TS1484: 'PagedResponse' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/services/apiClient.ts(1,25): error TS1484: 'ToolDto' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.

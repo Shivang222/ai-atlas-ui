@@ -1,0 +1,73 @@
+import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=e1c21de6"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+import { createBrowserRouter } from "/node_modules/.vite/deps/react-router-dom.js?v=e1c21de6";
+import App from "/src/App.tsx";
+import Home from "/src/pages/Home.tsx";
+import Search from "/src/pages/Search.tsx";
+import ToolDetail from "/src/pages/ToolDetail.tsx";
+import Compare from "/src/pages/Compare.tsx";
+import Trending from "/src/pages/Trending.tsx";
+import Dashboard from "/src/pages/Dashboard.tsx";
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: /* @__PURE__ */ jsxDEV(App, {}, void 0, false, {
+        fileName: "D:/Projects/AI Intelligence & Discovery Platform/frontend/src/router.tsx",
+        lineNumber: 15,
+        columnNumber: 12
+      }, this),
+      children: [
+        {
+          index: true,
+          element: /* @__PURE__ */ jsxDEV(Home, {}, void 0, false, {
+            fileName: "D:/Projects/AI Intelligence & Discovery Platform/frontend/src/router.tsx",
+            lineNumber: 19,
+            columnNumber: 14
+          }, this)
+        },
+        {
+          path: "search",
+          element: /* @__PURE__ */ jsxDEV(Search, {}, void 0, false, {
+            fileName: "D:/Projects/AI Intelligence & Discovery Platform/frontend/src/router.tsx",
+            lineNumber: 23,
+            columnNumber: 14
+          }, this)
+        },
+        {
+          path: "tools/:slug",
+          element: /* @__PURE__ */ jsxDEV(ToolDetail, {}, void 0, false, {
+            fileName: "D:/Projects/AI Intelligence & Discovery Platform/frontend/src/router.tsx",
+            lineNumber: 27,
+            columnNumber: 14
+          }, this)
+        },
+        {
+          path: "compare",
+          element: /* @__PURE__ */ jsxDEV(Compare, {}, void 0, false, {
+            fileName: "D:/Projects/AI Intelligence & Discovery Platform/frontend/src/router.tsx",
+            lineNumber: 31,
+            columnNumber: 14
+          }, this)
+        },
+        {
+          path: "trending",
+          element: /* @__PURE__ */ jsxDEV(Trending, {}, void 0, false, {
+            fileName: "D:/Projects/AI Intelligence & Discovery Platform/frontend/src/router.tsx",
+            lineNumber: 35,
+            columnNumber: 14
+          }, this)
+        },
+        {
+          path: "dashboard",
+          element: /* @__PURE__ */ jsxDEV(Dashboard, {}, void 0, false, {
+            fileName: "D:/Projects/AI Intelligence & Discovery Platform/frontend/src/router.tsx",
+            lineNumber: 39,
+            columnNumber: 14
+          }, this)
+        }
+      ]
+    }
+  ]
+);
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6IkFBY2lCO0FBZGpCLFNBQVNBLDJCQUEyQjtBQUNwQyxPQUFPQyxTQUFTO0FBQ2hCLE9BQU9DLFVBQVU7QUFDakIsT0FBT0MsWUFBWTtBQUNuQixPQUFPQyxnQkFBZ0I7QUFDdkIsT0FBT0MsYUFBYTtBQUNwQixPQUFPQyxjQUFjO0FBQ3JCLE9BQU9DLGVBQWU7QUFJZixhQUFNQyxTQUFTUjtBQUFBQSxFQUFvQjtBQUFBLElBQ3RDO0FBQUEsTUFDSVMsTUFBTTtBQUFBLE1BQ05DLFNBQVMsdUJBQUMsU0FBRDtBQUFBO0FBQUE7QUFBQTtBQUFBLGFBQUk7QUFBQSxNQUNiQyxVQUFVO0FBQUEsUUFDTjtBQUFBLFVBQ0lDLE9BQU87QUFBQSxVQUNQRixTQUFTLHVCQUFDLFVBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxpQkFBSztBQUFBLFFBQ2xCO0FBQUEsUUFDQTtBQUFBLFVBQ0lELE1BQU07QUFBQSxVQUNOQyxTQUFTLHVCQUFDLFlBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxpQkFBTztBQUFBLFFBQ3BCO0FBQUEsUUFDQTtBQUFBLFVBQ0lELE1BQU07QUFBQSxVQUNOQyxTQUFTLHVCQUFDLGdCQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBQVc7QUFBQSxRQUN4QjtBQUFBLFFBQ0E7QUFBQSxVQUNJRCxNQUFNO0FBQUEsVUFDTkMsU0FBUyx1QkFBQyxhQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBQVE7QUFBQSxRQUNyQjtBQUFBLFFBQ0E7QUFBQSxVQUNJRCxNQUFNO0FBQUEsVUFDTkMsU0FBUyx1QkFBQyxjQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBQVM7QUFBQSxRQUN0QjtBQUFBLFFBQ0E7QUFBQSxVQUNJRCxNQUFNO0FBQUEsVUFDTkMsU0FBUyx1QkFBQyxlQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBQVU7QUFBQSxRQUN2QjtBQUFBLE1BQUM7QUFBQSxJQUVUO0FBQUEsRUFBQztBQUNKIiwibmFtZXMiOlsiY3JlYXRlQnJvd3NlclJvdXRlciIsIkFwcCIsIkhvbWUiLCJTZWFyY2giLCJUb29sRGV0YWlsIiwiQ29tcGFyZSIsIlRyZW5kaW5nIiwiRGFzaGJvYXJkIiwicm91dGVyIiwicGF0aCIsImVsZW1lbnQiLCJjaGlsZHJlbiIsImluZGV4Il0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VzIjpbInJvdXRlci50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlQnJvd3NlclJvdXRlciB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xyXG5pbXBvcnQgQXBwIGZyb20gJy4vQXBwJztcclxuaW1wb3J0IEhvbWUgZnJvbSAnLi9wYWdlcy9Ib21lJztcclxuaW1wb3J0IFNlYXJjaCBmcm9tICcuL3BhZ2VzL1NlYXJjaCc7XHJcbmltcG9ydCBUb29sRGV0YWlsIGZyb20gJy4vcGFnZXMvVG9vbERldGFpbCc7XHJcbmltcG9ydCBDb21wYXJlIGZyb20gJy4vcGFnZXMvQ29tcGFyZSc7XHJcbmltcG9ydCBUcmVuZGluZyBmcm9tICcuL3BhZ2VzL1RyZW5kaW5nJztcclxuaW1wb3J0IERhc2hib2FyZCBmcm9tICcuL3BhZ2VzL0Rhc2hib2FyZCc7XHJcblxyXG4vLyBBbGwgcm91dGVzIGxvYWRlZFxyXG5cclxuZXhwb3J0IGNvbnN0IHJvdXRlciA9IGNyZWF0ZUJyb3dzZXJSb3V0ZXIoW1xyXG4gICAge1xyXG4gICAgICAgIHBhdGg6ICcvJyxcclxuICAgICAgICBlbGVtZW50OiA8QXBwIC8+LFxyXG4gICAgICAgIGNoaWxkcmVuOiBbXHJcbiAgICAgICAgICAgIHtcclxuICAgICAgICAgICAgICAgIGluZGV4OiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgZWxlbWVudDogPEhvbWUgLz4sXHJcbiAgICAgICAgICAgIH0sXHJcbiAgICAgICAgICAgIHtcclxuICAgICAgICAgICAgICAgIHBhdGg6ICdzZWFyY2gnLFxyXG4gICAgICAgICAgICAgICAgZWxlbWVudDogPFNlYXJjaCAvPixcclxuICAgICAgICAgICAgfSxcclxuICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgICAgcGF0aDogJ3Rvb2xzLzpzbHVnJyxcclxuICAgICAgICAgICAgICAgIGVsZW1lbnQ6IDxUb29sRGV0YWlsIC8+LFxyXG4gICAgICAgICAgICB9LFxyXG4gICAgICAgICAgICB7XHJcbiAgICAgICAgICAgICAgICBwYXRoOiAnY29tcGFyZScsXHJcbiAgICAgICAgICAgICAgICBlbGVtZW50OiA8Q29tcGFyZSAvPixcclxuICAgICAgICAgICAgfSxcclxuICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgICAgcGF0aDogJ3RyZW5kaW5nJyxcclxuICAgICAgICAgICAgICAgIGVsZW1lbnQ6IDxUcmVuZGluZyAvPixcclxuICAgICAgICAgICAgfSxcclxuICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgICAgcGF0aDogJ2Rhc2hib2FyZCcsXHJcbiAgICAgICAgICAgICAgICBlbGVtZW50OiA8RGFzaGJvYXJkIC8+LFxyXG4gICAgICAgICAgICB9LFxyXG4gICAgICAgIF0sXHJcbiAgICB9LFxyXG5dKTtcclxuIl0sImZpbGUiOiJEOi9Qcm9qZWN0cy9BSSBJbnRlbGxpZ2VuY2UgJiBEaXNjb3ZlcnkgUGxhdGZvcm0vZnJvbnRlbmQvc3JjL3JvdXRlci50c3gifQ==

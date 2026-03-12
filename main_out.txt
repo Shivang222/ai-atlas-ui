@@ -1,0 +1,28 @@
+import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=e1c21de6"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=e1c21de6"; const React = __vite__cjsImport1_react.__esModule ? __vite__cjsImport1_react.default : __vite__cjsImport1_react;
+import __vite__cjsImport2_reactDom_client from "/node_modules/.vite/deps/react-dom_client.js?v=e1c21de6"; const ReactDOM = __vite__cjsImport2_reactDom_client.__esModule ? __vite__cjsImport2_reactDom_client.default : __vite__cjsImport2_reactDom_client;
+import { RouterProvider } from "/node_modules/.vite/deps/react-router-dom.js?v=e1c21de6";
+import { router } from "/src/router.tsx";
+import "/src/index.css";
+console.log("main.tsx executing");
+const rootElement = document.getElementById("root");
+console.log("Root element found:", rootElement);
+if (!rootElement) throw new Error("Failed to find the root element");
+try {
+  ReactDOM.createRoot(rootElement).render(
+    /* @__PURE__ */ jsxDEV(React.StrictMode, { children: /* @__PURE__ */ jsxDEV(RouterProvider, { router }, void 0, false, {
+      fileName: "D:/Projects/AI Intelligence & Discovery Platform/frontend/src/main.tsx",
+      lineNumber: 17,
+      columnNumber: 7
+    }, this) }, void 0, false, {
+      fileName: "D:/Projects/AI Intelligence & Discovery Platform/frontend/src/main.tsx",
+      lineNumber: 16,
+      columnNumber: 5
+    }, this)
+  );
+  console.log("React finished rendering synchronously");
+} catch (e) {
+  console.error("Error during ReactDOM.render", e);
+}
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6IkFBZ0JNO0FBaEJOLE9BQU9BLFdBQVc7QUFDbEIsT0FBT0MsY0FBYztBQUNyQixTQUFTQyxzQkFBc0I7QUFDL0IsU0FBU0MsY0FBYztBQUN2QixPQUFPO0FBRVBDLFFBQVFDLElBQUksb0JBQW9CO0FBRWhDLE1BQU1DLGNBQWNDLFNBQVNDLGVBQWUsTUFBTTtBQUNsREosUUFBUUMsSUFBSSx1QkFBdUJDLFdBQVc7QUFFOUMsSUFBSSxDQUFDQSxZQUFhLE9BQU0sSUFBSUcsTUFBTSxpQ0FBaUM7QUFFbkUsSUFBSTtBQUNGUixXQUFTUyxXQUFXSixXQUFXLEVBQUVLO0FBQUFBLElBQy9CLHVCQUFDLE1BQU0sWUFBTixFQUNDLGlDQUFDLGtCQUFlLFVBQWhCO0FBQUE7QUFBQTtBQUFBO0FBQUEsV0FBK0IsS0FEakM7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQUVBO0FBQUEsRUFDRjtBQUNBUCxVQUFRQyxJQUFJLHdDQUF3QztBQUN0RCxTQUFTTyxHQUFHO0FBQ1ZSLFVBQVFTLE1BQU0sZ0NBQWdDRCxDQUFDO0FBQ2pEIiwibmFtZXMiOlsiUmVhY3QiLCJSZWFjdERPTSIsIlJvdXRlclByb3ZpZGVyIiwicm91dGVyIiwiY29uc29sZSIsImxvZyIsInJvb3RFbGVtZW50IiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50QnlJZCIsIkVycm9yIiwiY3JlYXRlUm9vdCIsInJlbmRlciIsImUiLCJlcnJvciJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlcyI6WyJtYWluLnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tL2NsaWVudCdcbmltcG9ydCB7IFJvdXRlclByb3ZpZGVyIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbSdcbmltcG9ydCB7IHJvdXRlciB9IGZyb20gJy4vcm91dGVyJ1xuaW1wb3J0ICcuL2luZGV4LmNzcydcblxuY29uc29sZS5sb2coJ21haW4udHN4IGV4ZWN1dGluZycpO1xuXG5jb25zdCByb290RWxlbWVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290Jyk7XG5jb25zb2xlLmxvZygnUm9vdCBlbGVtZW50IGZvdW5kOicsIHJvb3RFbGVtZW50KTtcblxuaWYgKCFyb290RWxlbWVudCkgdGhyb3cgbmV3IEVycm9yKCdGYWlsZWQgdG8gZmluZCB0aGUgcm9vdCBlbGVtZW50Jyk7XG5cbnRyeSB7XG4gIFJlYWN0RE9NLmNyZWF0ZVJvb3Qocm9vdEVsZW1lbnQpLnJlbmRlcihcbiAgICA8UmVhY3QuU3RyaWN0TW9kZT5cbiAgICAgIDxSb3V0ZXJQcm92aWRlciByb3V0ZXI9e3JvdXRlcn0gLz5cbiAgICA8L1JlYWN0LlN0cmljdE1vZGU+LFxuICApO1xuICBjb25zb2xlLmxvZygnUmVhY3QgZmluaXNoZWQgcmVuZGVyaW5nIHN5bmNocm9ub3VzbHknKTtcbn0gY2F0Y2ggKGUpIHtcbiAgY29uc29sZS5lcnJvcihcIkVycm9yIGR1cmluZyBSZWFjdERPTS5yZW5kZXJcIiwgZSk7XG59XG4iXSwiZmlsZSI6IkQ6L1Byb2plY3RzL0FJIEludGVsbGlnZW5jZSAmIERpc2NvdmVyeSBQbGF0Zm9ybS9mcm9udGVuZC9zcmMvbWFpbi50c3gifQ==
